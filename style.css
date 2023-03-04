@@ -1,0 +1,172 @@
+.navbar {
+    background: #0065c3;
+    display: flex;
+    position: sticky !important;
+}
+
+.my-btn {
+    font-family: 'Arial' !important;
+    font-weight: bolder !important;
+    font-size: smaller !important;
+    border-radius: 25px !important;
+    margin-right: 15px !important;
+}
+
+.my-logo {
+    width: 50px;
+}
+
+.nav-item .nav-link {
+    cursor: pointer !important;
+    color: white !important;
+    padding-left: 50px !important;
+    font-family: 'Arial' !important;
+    font-weight: bolder !important;
+    font-size: smaller !important;
+}
+
+.container {
+    min-height: unset;
+    /* height: 177.867vw; */
+    max-height: 1024px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column-reverse;
+    align-content: center;
+    justify-content: end;
+    flex-wrap: nowrap;
+}
+
+body {
+    background-color: #0065c3 !important;
+    background-size: cover !important;
+    font-family: Sofia Pro Black, Helvetica Neue, Helvetica, Arial, sans-serif !important;
+}
+
+.main {
+    background-color: #0065c3;
+}
+
+.free {
+    /* background-color: #0e0906; */
+}
+
+.free img {
+    /* padding-left: 200px;
+border: none; */
+}
+
+.nitro {
+    background-color: blue;
+}
+
+.nitro img {
+    padding: 50px 50px 50px 200px;
+}
+
+.nitro .heading {
+    padding: 170px 150px 0px 0px;
+}
+
+.nitro h5 {
+    text-align: center;
+    color: white;
+    margin-right: 150px;
+}
+
+.nitro button {
+    margin-left: 200px;
+    height: 35px;
+    border-radius: 25px;
+    color: aliceblue;
+    background-color: #265abb;
+    border: 3px solid white;
+}
+
+.better img {
+    border-radius: 0%;
+}
+
+.betterL {
+    height: 1000px;
+}
+
+
+/* .mango .img1{
+height: 20%;
+} */
+
+.video_container {
+    height: 100%;
+    width: 100%;
+}
+
+.heading img {
+    height: 350px;
+    /* padding-top: 200px; */
+    margin-top: 100px;
+}
+
+.favorite img {
+    padding: 120px 120px 120px 0px;
+}
+
+.favorite .text {
+    padding: 120px 120px 120px 80px;
+}
+
+.favorite button {
+    height: 35px;
+    border-radius: 25px;
+    color: aliceblue;
+    background-color: #265abb;
+    border: 3px solid white;
+}
+
+.favorite title {
+    padding: 120px 120px 120px 0px;
+}
+
+.social {
+    padding: 50px;
+}
+
+.social h1 {
+    text-align: center;
+    color: #0065c3;
+}
+
+.footer {
+    padding: 60px 30px 60px 30px;
+    height: 250px;
+    background-color: #0065c3;
+    display: flex;
+    /* display: inline-block; */
+    justify-content: space-between;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer subs {
+    border: 2px slid white;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+
+.footer button {
+    height: 35px;
+    /* width: 200px; */
+    border-radius: 25px;
+    color: aliceblue;
+    background-color: #265abb;
+    border: 3px solid white;
+}
+
+.container {
+    width: 400px;
+    height: 500px;
+}
